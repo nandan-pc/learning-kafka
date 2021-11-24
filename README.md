@@ -37,3 +37,25 @@ Day 4:
       - Round robin method for events with no key
       - Hashing for events with key
     - [How to choose the number of topics/partitions in a Kafka cluster?](https://www.confluent.io/blog/how-choose-number-topics-partitions-kafka-cluster/)    
+
+Day 5: 
+- [Brokers](https://developer.confluent.io/learn-kafka/apache-kafka/brokers/) 
+ - Kafka is composed of network of machines called borkers 
+ - They are independent machines each running Kafka broker process. 
+ - Each broker hosts
+    - hosts some set of partitions 
+    - handles incoming requests to write new events to partitions 
+    or read events from them 
+    - handles replications of partitions
+  - [Broker Documentation](https://docs.confluent.io/platform/current/control-center/brokers.html)
+    - Interesting concepts: 
+        - [Active Controller]( https://docs.confluent.io/platform/current/control-center/brokers.html):  
+            In a Kafka cluster, one of the brokers serves as the controller, which is responsible for managing the states of partitions and replicas and for performing administrative tasks like reassigning partitions. At any given time there is only one controller broker in your cluster. 
+        - [Self-Balancing Clusters](https://docs.confluent.io/platform/current/kafka/sbc/index.html#what-are-sbc-long)
+           - Confluent Platform deployments can run hundreds of brokers, manage thousands of topics and produce billions of messages per hour. Every day brokers die, new topics are created and deleted, and partitions must be reassigned to balance the workload. This can overload teams tasked with managing Confluent Platform runtime operations.
+           - Self-Balancing automates your resource workload balancing, provides failure detection and self-healing, and allows you to add or decommission brokers as needed, with no manual tuning required.     
+        - [Self-Balancing vs. Auto Data Balancer](https://docs.confluent.io/platform/current/kafka/sbc/index.html#what-are-sbc-long)
+        - [Tiered Storage](https://docs.confluent.io/platform/current/kafka/tiered-storage.html#tiered-storage) 
+            - [What is tiered storage ?](https://searchstorage.techtarget.com/definition/tiered-storage)
+              - Tiered storage is a method for assigning different categories of data to various types of storage media to reduce overall storage costs and improve the performance and availability of mission-critical applications.  
+            - Tiered Storage makes storing huge volumes of data in Kafka manageable by reducing operational burden and cost. The fundamental idea is to separate the concerns of data storage from the concerns of data processing, allowing each to scale independently. With Tiered Storage, you can send [warm data](https://techchannel.com/SMB/9/2012/storage-groups-hot-warm-cold) to cost-effective object storage, and scale brokers only when you need more compute resources. 
