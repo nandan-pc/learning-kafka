@@ -40,12 +40,11 @@ Day 4:
 
 Day 5: 
 - [Brokers](https://developer.confluent.io/learn-kafka/apache-kafka/brokers/) 
- - Kafka is composed of network of machines called borkers 
- - They are independent machines each running Kafka broker process. 
- - Each broker hosts
+  - At physical infrastructure standpoint, Kafka is composed of network of machines called borkers 
+  - They are independent machines each running Kafka broker process. 
+  - Each broker hosts
     - hosts some set of partitions 
-    - handles incoming requests to write new events to partitions 
-    or read events from them 
+    - handles incoming requests to write new events to partitions or read events from them 
     - handles replications of partitions
   - [Broker Documentation](https://docs.confluent.io/platform/current/control-center/brokers.html)
     - Interesting concepts: 
