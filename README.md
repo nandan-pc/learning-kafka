@@ -2,6 +2,7 @@ learning-kafka
 ==============
 [100 Days of Code with Apache Kafka®](https://developer.confluent.io/100-days-of-code/)
 
+-------
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -13,20 +14,24 @@ learning-kafka
   - [The Log: What every software engineer should know about real-time data's unifying abstraction](#the-log-what-every-software-engineer-should-know-about-real-time-datas-unifying-abstraction)
   - [Partitions](#partitions)
 - [Day 5: Brokers](#day-5-brokers)
-
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+------
 ### Day 1: Setting up confluent cloud 
+------
   - Set up simple Kafka Cluster in [Confluent Cloud](https://developer.confluent.io/quickstart/kafka-on-confluent-cloud/) , created a topic, and produced and consumed hello world message! 
   - Set up [python client](https://github.com/confluentinc/confluent-kafka-python) on local complete and ran basic producer and consumer program.  
   
+--------  
 ### Day 2: Events
+--------
   - [Events](https://developer.confluent.io/learn-kafka/apache-kafka/events/)
     - What is an event ? 
     - Event structure in Kafka i.e. Key/Value pair
 
-
+--------
 ### Day 3: Topics
+--------
   - [Topics](https://developer.confluent.io/learn-kafka/apache-kafka/topics/) 
     - Topic is fundamental unit of organization of events
     - A topic is a log of events.
@@ -36,9 +41,11 @@ learning-kafka
       - events in the log are immutable i.e. once something has happened, it is exceedingly difficult to make it un-happen.  
     - Topic is not same as Queue. In Topic data is retained(possibly indefinately). Where as in Queue it is not.(deque operation)  
 
+--------
 ### Day 4: Log and Partitions
+--------
 #### [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) 
-    - Part 1: 
+  - Part 1: 
       - What is a log ? 
       - Logs in Database : Write ahead log (for Durability - ACID)
       - Logs in Distributed System
@@ -46,13 +53,15 @@ learning-kafka
         - state machine model: Active-Active mode of usage of log
         - primary-backup model: Active-Passive mode of usage of log      
 #### [Partitions](https://developer.confluent.io/learn-kafka/apache-kafka/partitions/)
-    - What is partitioning of a topic ? 
-    - How events are distributed among partition for a topic ?  
+- What is partitioning of a topic ? 
+- How events are distributed among partition for a topic ?  
       - Round robin method for events with no key
       - Hashing for events with key
-    - [How to choose the number of topics/partitions in a Kafka cluster?](https://www.confluent.io/blog/how-choose-number-topics-partitions-kafka-cluster/)    
+- [How to choose the number of topics/partitions in a Kafka cluster?](https://www.confluent.io/blog/how-choose-number-topics-partitions-kafka-cluster/)    
 
+---------
 ### Day 5: Brokers 
+---------
 - [Brokers](https://developer.confluent.io/learn-kafka/apache-kafka/brokers/) 
   - At physical infrastructure standpoint, Kafka is composed of network of machines called borkers 
   - They are independent machines each running Kafka broker process. 
