@@ -81,4 +81,9 @@ learning-kafka
         - [Tiered Storage](https://docs.confluent.io/platform/current/kafka/tiered-storage.html#tiered-storage) 
             - [What is tiered storage ?](https://searchstorage.techtarget.com/definition/tiered-storage)
               - Tiered storage is a method for assigning different categories of data to various types of storage media to reduce overall storage costs and improve the performance and availability of mission-critical applications.  
-            - Tiered Storage makes storing huge volumes of data in Kafka manageable by reducing operational burden and cost. The fundamental idea is to separate the concerns of data storage from the concerns of data processing, allowing each to scale independently. With Tiered Storage, you can send [warm data](https://techchannel.com/SMB/9/2012/storage-groups-hot-warm-cold) to cost-effective object storage, and scale brokers only when you need more compute resources. 
+            - Tiered Storage makes storing huge volumes of data in Kafka manageable by reducing operational burden and cost. The fundamental idea is to separate the concerns of data storage from the concerns of data processing, allowing each to scale independently. With Tiered Storage, you can send [warm data](https://techchannel.com/SMB/9/2012/storage-groups-hot-warm-cold) to cost-effective object storage, and scale brokers only when you need more compute resources.
+---------
+### Day 6: Producers 
+---------  
+- [Producers](https://developer.confluent.io/learn-kafka/apache-kafka/producers/)
+
