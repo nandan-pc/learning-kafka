@@ -14,6 +14,7 @@ learning-kafka
   - [The Log: What every software engineer should know about real-time data's unifying abstraction](#the-log-what-every-software-engineer-should-know-about-real-time-datas-unifying-abstraction)
   - [Partitions](#partitions)
 - [Day 5: Brokers](#day-5-brokers)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ------
