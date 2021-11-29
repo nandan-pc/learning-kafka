@@ -15,6 +15,7 @@ learning-kafka
   - [Partitions](#partitions)
 - [Day 5: Brokers](#day-5-brokers)
 - [Day 6: Producers](#day-6-producers)
+- [Day 7: Consumers and Kafka Ecosystem](#day-7-consumers-and-kafka-ecosystem)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
