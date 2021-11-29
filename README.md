@@ -94,5 +94,10 @@ learning-kafka
 ---------
 - [Consumers](https://developer.confluent.io/learn-kafka/apache-kafka/consumers/)
 - [Ecosystem](https://developer.confluent.io/learn-kafka/apache-kafka/ecosystem/)
+  - Interesting suggestion where coming up with own Infrastructure common patterns needs to be avoided and encouraged to be community driven or vendor driven.
+  - Couple of thoughts:
+    - Many times certain features which one is looking for isn't present at the time feature is identified and that drives to add up layers of application functionality to repeat certain undifferentiated tasks.  
+    - Its good to not repeat cycle but may be it takes little skill to identify when not to repeat the cycle and when to build ones own solution. It'll be really interesting to understand the thought process of a developer when one says "hey, we need to come up with our own solution". 
+    
  - [An Introduction to the Wonderful World of Apache Kafka® with Dave Klein | Apache Kafka® Meetup](https://videos.confluent.io/watch/dSQTmw4i2cdnHy9i5znaVf?) 
    - Gives Quick overview on key concepts - Events, Topic, Partition, Consumers, Producers, Schema registery, Kafka Connectors, Kafka Streams 
