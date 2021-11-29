@@ -88,3 +88,10 @@ learning-kafka
 ---------  
 - [Producers](https://developer.confluent.io/learn-kafka/apache-kafka/producers/)
 
+---------
+### Day 7: Consumers and Kafka Ecosystem
+---------
+- [Consumers](https://developer.confluent.io/learn-kafka/apache-kafka/consumers/)
+- [Ecosystem](https://developer.confluent.io/learn-kafka/apache-kafka/ecosystem/)
+ - [An Introduction to the Wonderful World of Apache Kafka® with Dave Klein | Apache Kafka® Meetup](https://videos.confluent.io/watch/dSQTmw4i2cdnHy9i5znaVf?) 
+   - Gives Quick overview on key concepts - Events, Topic, Partition, Consumers, Producers, Schema registery, Kafka Connectors, Kafka Streams 
