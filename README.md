@@ -16,6 +16,7 @@ learning-kafka
 - [Day 5: Brokers](#day-5-brokers)
 - [Day 6: Producers](#day-6-producers)
 - [Day 7: Consumers and Kafka Ecosystem](#day-7-consumers-and-kafka-ecosystem)
+- [Day 8: Kafka Connectors](#day-8-kafka-connectors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
