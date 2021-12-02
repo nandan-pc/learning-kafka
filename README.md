@@ -106,6 +106,6 @@ learning-kafka
 ### Day 8: Kafka Connectors
 ---------
 - [Kafka Connectors](https://developer.confluent.io/learn-kafka/apache-kafka/kafka-connect/)
- - Distributed components pull data from external system to kafka topic or pushes topics data to external system. 
- - One needs to pass config variables to Kafka connectors to use it. 
+  - Distributed components pull data from external system to kafka topic or pushes topics data to external system. 
+  - One needs to pass config variables to Kafka connectors to use it. 
    
