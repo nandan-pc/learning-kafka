@@ -101,3 +101,10 @@ learning-kafka
     
  - [An Introduction to the Wonderful World of Apache Kafka® with Dave Klein | Apache Kafka® Meetup](https://videos.confluent.io/watch/dSQTmw4i2cdnHy9i5znaVf?) 
    - Gives Quick overview on key concepts - Events, Topic, Partition, Consumers, Producers, Schema registery, Kafka Connectors, Kafka Streams 
+---------
+### Day 8: Kafka Connectors
+---------
+- [Kafka Connectors](https://developer.confluent.io/learn-kafka/apache-kafka/kafka-connect/)
+ - Distributed components pull data from external system to kafka topic or pushes topics data to external system. 
+ - One needs to pass config variables to Kafka connectors to use it. 
+   
